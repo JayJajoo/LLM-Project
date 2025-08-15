@@ -1,0 +1,8 @@
+langgraph
+dotenv
+langchain_openai
+langchain_community
+fastapi
+uvicorn
+chromadb
+boto3

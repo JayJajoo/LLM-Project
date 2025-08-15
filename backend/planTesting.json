@@ -1,0 +1,101 @@
+{
+    "tests":[   
+        {
+            
+            "query":"Make me a plan to be a data scientist in NLP filed.",
+            "college": "Khoury Coll of Computer Sciences CS",
+            "department": "Data Science DS",
+            "core_course_numbers": ["DS5110","DS5220","CS5800","DS5500","DS5230"],
+            "max_credits": 32,
+            "min_creds_per_sem": 8,
+            "max_creds_per_sem": 8,
+            "max_number_of_plans":1,
+            "key_words":["Natural Language Processing","Deep Learning","Large Language Models","Machine Learning","Foundations of Generative AI","Large Language Models","Supervised Machine Learning"]
+        },
+        {
+            
+            "query":"Make me a plan to be a computer vision specialist",
+            "college": "Khoury Coll of Computer Sciences CS",
+            "department": "Data Science DS",
+            "core_course_numbers": ["DS5110","DS5220","CS5800","DS5500","DS5230"],
+            "max_credits": 32,
+            "min_creds_per_sem": 8,
+            "max_creds_per_sem": 8,
+            "max_number_of_plans":1,
+            "key_words":["Pattern Recognition and Computer Vision","Advanced Computer Vision","Supervised Machine Learning","Unsupervised Machine Learning and Data Mining","Essentials of Data Science"]
+        },
+        {
+            
+            "query":"Make me a plan to be a NLP specialist in LLMs and big data.",
+            "college": "Khoury Coll of Computer Sciences CS",
+            "department": "Computer Science CS",
+            "core_course_numbers": ["CS5010","CS5800","CS6120","CS5200"],
+            "max_credits": 32,
+            "min_creds_per_sem": 8,
+            "max_creds_per_sem": 8,
+            "max_number_of_plans":1,
+            "key_words":["Foundations of Generative AI","Large Language Models","Machine Learning","Applied Natural Language Processing"]
+        },
+        {
+            
+            "query":"Make me a plan to be a large scale data engineer and cloud data specialist.",
+            "college": "Khoury Coll of Computer Sciences CS",
+            "department": "Computer Science CS",
+            "core_course_numbers": ["CS5010","CS5800","CS6240","CS5200"],
+            "max_credits": 32,
+            "min_creds_per_sem": 8,
+            "max_creds_per_sem": 8,
+            "max_number_of_plans":1,
+            "key_words":["Fundamentals of Cloud Computing","Data Science Engineering Methods and Tools","Building Scalable Distributed Systems","Algorithms","Big-Data Systems"]
+        },
+        {
+            
+            "query":"Make me a plan to be a cloud security engineer.",
+            "college": "Khoury Coll of Computer Sciences CS",
+            "department": "Cyber Security CY",
+            "core_course_numbers": ["CY5010","CY5001","CY7900"],
+            "max_credits": 32,
+            "min_creds_per_sem": 8,
+            "max_creds_per_sem": 8,
+            "max_number_of_plans":1,
+            "key_words":["Security Risk Management","Software Security Practices","Cloud Security Practices","Networks and Cloud Computing","Foundations of Software Security"]
+        },
+        {
+            
+            "query":"make me plan to become a java developer in software enginnering and dont give me reperated subject or same subjects.",
+            "college": "College of Engineering COE",
+            "department": "Grad Engineering - Multidiscpl GSEN",
+            "core_course_numbers": ["GSEN5100"],
+            "max_credits": 32,
+            "min_creds_per_sem": 8,
+            "max_creds_per_sem": 8,
+            "max_number_of_plans":1,
+            "key_words":["Concepts of Object-Oriented Design","Software Engineering","Enterprise Software Design","Parallel Concurrent and multithreaded processing","Application modeling and design"]
+        },
+        {
+            
+            "query":"make me a plan to become a expert in coorporate finance and to get a job in adivisory firms.",
+            "college": "FinaNce and Insurance FINA",
+            "department": "Grad Engineering - Multidiscpl GSEN",
+            "core_course_numbers": ["FINA6200","FINA6202","FINA6203","FINA6204","FINA6205","FINA6206"],
+            "max_credits": 30,
+            "min_creds_per_sem": 6,
+            "max_creds_per_sem": 8,
+            "max_number_of_plans":1,
+            "key_words":["Finincial Modeling","Corporate Finance","Advance Topics in Finance","Finance and Data Analytics"]
+        },
+        {
+            
+            "query":"make me a plan to become a expert in portfolio managenet.",
+            "college": "FinaNce and Insurance FINA",
+            "department": "Grad Engineering - Multidiscpl GSEN",
+            "core_course_numbers": ["FINA6200","FINA6202","FINA6203","FINA6204","FINA6205","FINA6206"],
+            "max_credits": 30,
+            "min_creds_per_sem": 8,
+            "max_creds_per_sem": 8,
+            "max_number_of_plans":1,
+            "key_words":["Portfolio Management","Quantative Portfolio Management"," Managing Finincial Investment","Fundamentals of Finincial Math and Finincial Markets"]
+        }
+    ]
+}
+

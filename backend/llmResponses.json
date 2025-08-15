@@ -1,0 +1,860 @@
+[
+  [
+    {
+      "plan_number": 1,
+      "total_semesters": 4,
+      "semester_schedule": [
+        {
+          "semester": 1,
+          "courses": [
+            {
+              "course_number": "CS5800",
+              "title": "Algorithms",
+              "description": "Presents the mathematical techniques used for the design and analysis of computer algorithms. Focuses on algorithmic design paradigms and techniques for analyzing the correctness, time, and space complexity of algorithms. Topics may include asymptotic notation, recurrences, loop invariants, Hoare triples, sorting and searching, advanced data structures, lower bounds, hashing, greedy algorithms, dynamic programming, graph algorithms, and NP-completeness.",
+              "reason": "Foundational course essential for understanding algorithmic principles that underpin machine learning and NLP techniques.",
+              "credit_hours": "4",
+              "type": "core"
+            },
+            {
+              "course_number": "DS5110",
+              "title": "Essentials of Data Science",
+              "description": "Introduces students to the core tasks in data science, including data collection, storage, tidying, transformation, processing, management, and modeling for the purpose of extracting knowledge from raw observations. Programming is a cross-cutting aspect of the course. Offers students an opportunity to gain experience with data science tasks and tools through short assignments. Includes a term project based on real-world data.",
+              "reason": "Provides a broad overview of data science fundamentals, crucial for NLP data preparation and analysis.",
+              "credit_hours": "4",
+              "type": "core"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 2,
+          "courses": [
+            {
+              "course_number": "DS5220",
+              "title": "Supervised Machine Learning and Learning Theory",
+              "description": "Introduces supervised machine learning, which is the study and design of algorithms that enable computers/machines to learn from experience or data, given examples of data with a known outcome of interest. Offers a broad view of models and algorithms for supervised decision making. Discusses the methodological foundations behind the models and the algorithms, as well as issues of practical implementation and use, and techniques for assessing the performance. Includes a term project involving programming and/or work with real-world data sets. Requires proficiency in a programming language such as Python, R, or MATLAB.",
+              "reason": "Core for understanding machine learning models, which are fundamental for NLP tasks like classification and prediction.",
+              "credit_hours": "4",
+              "type": "core"
+            },
+            {
+              "course_number": "DS5230",
+              "title": "Unsupervised Machine Learning and Data Mining",
+              "description": "Introduces unsupervised machine learning and data mining, which is the process of discovering and summarizing patterns from large amounts of data, without examples of data with a known outcome of interest. Offers a broad view of models and algorithms for unsupervised data exploration. Discusses the methodological foundations behind the models and the algorithms, as well as issues of practical implementation and use, and techniques for assessing the performance. Includes a term project involving programming and/or work with real-life data sets. Requires proficiency in a programming language such as Python, R, or MATLAB.",
+              "reason": "Complements supervised learning by covering unsupervised techniques vital for NLP tasks like clustering and topic modeling.",
+              "credit_hours": "4",
+              "type": "core"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 3,
+          "courses": [
+            {
+              "course_number": "CS6120",
+              "title": "Natural Language Processing",
+              "description": "Provides an introduction to the computational modeling of human language, the ongoing effort to create computer programs that can communicate with people in natural language, and current applications of the natural language field, such as automated document classification, intelligent query processing, and information extraction. Topics include computational models of grammar and automatic parsing, statistical language models and the analysis of large text corpuses, natural language semantics and programs that understand language, models of discourse structure, and language use by intelligent agents. Course work includes formal and mathematical analysis of language models, and implementation of working programs that analyze and interpret natural language text.",
+              "reason": "Essential NLP course that introduces core concepts, models, and applications, directly aligned with the student\u2019s goal.",
+              "credit_hours": "4",
+              "type": "elective"
+            },
+            {
+              "title": "Applied Natural Language Processing in Engineering",
+              "description": "Covers fundamentals of natural language processing and its applications in engineering areas. Presents an overview of the NLP concepts and important algorithms. Demonstrates applications of NLP to address engineering problems in transportation, civil engineering, manufacturing, healthcare, business, commerce, and selected other areas of engineering. A substantial course project offers students an opportunity to solidify their skills to apply NLP to practical engineering problems.",
+              "credit_hours": "4",
+              "course_number": "MEIE7500",
+              "college": "College of Engineering EN",
+              "department": "Mech & Industrial Engineering MEIE",
+              "dept_code": "MEIE",
+              "prerequisites": "Industrial Engineering 5374 Graduate C Or Industrial Engineering 5374 Undergraduate D Or Industrial Engineering 6200 Graduate C Or Industrial Engineering 6400 Graduate C Or Mathematics 7241 Graduate C"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 4,
+          "courses": [
+            {
+              "course_number": "INPR6620",
+              "title": "Applied Natural Language Processing",
+              "description": "Provides hands-on instruction in natural language processing designed for applied AI. Offers students an opportunity to obtain real-world experience in crafting and refining NLP solutions in a project-based format and solving challenges that mirror industry and research scenarios. Emphasizes applied projects over pure theory.",
+              "reason": "Practical, project-based NLP course that builds applied skills essential for industry readiness.",
+              "credit_hours": "3",
+              "type": "elective"
+            },
+            {
+              "course_number": "INPR6640",
+              "title": "Applied Deep Learning",
+              "description": "Offers an advanced exploration of the theoretical foundations, architectures, and techniques essential for the design and optimization of deep learning models. Broadly discusses convolutional and recurrent neural networks, attention mechanisms, generative models, and transformer networks. Offers hands-on experience in implementing, optimizing, and deploying deep learning solutions to real-world problems. Highlights current challenges and the latest trends in the field.",
+              "reason": "Deep learning is critical for modern NLP, especially transformer models and language understanding.",
+              "credit_hours": "3",
+              "type": "elective"
+            },
+            {
+              "course_number": "CS5047",
+              "title": "Exploring AI Trends and Tools",
+              "description": "Explores key ideas in artificial intelligence while delving into trending developments in the field. Examines AI tools and frameworks to enable collaboration effectively and efficiently across technical and nontechnical stakeholders. Analyzes topics such as AI-enabled perception, representation, reasoning, and learning as contextualized by societal impact. Offers students an opportunity to obtain the knowledge and skills necessary to confidently navigate the ever-evolving landscape of AI.",
+              "reason": "Provides awareness of current AI tools and trends, useful for staying updated and applying state-of-the-art NLP solutions.",
+              "credit_hours": "4",
+              "type": "elective"
+            }
+          ],
+          "total_credits": 10
+        }
+      ],
+      "reason_behind_planning": "This plan was structured to prioritize core foundational courses early in the program, ensuring prerequisites are respected and foundational knowledge is established. Semester 1 includes algorithms and data science fundamentals, which are crucial for understanding subsequent machine learning and NLP courses. Semester 2 focuses on supervised and unsupervised machine learning, building the necessary skills for NLP modeling. Semester 3 introduces the core NLP course (CS6120), which is central to the student's goal. The final semester emphasizes applied NLP, deep learning techniques, and current AI tools, providing practical and cutting-edge skills. Electives were selected to complement core courses, with a focus on applying NLP in real-world scenarios and understanding advanced deep learning architectures. The workload is balanced across four semesters, each with 8 credits, and all core courses are included exactly once, respecting prerequisites and course availability constraints. This approach ensures a comprehensive, progressive learning experience aligned with the goal of becoming a data scientist specializing in NLP.",
+      "total_credits": 34
+    }
+  ],
+  [
+    {
+      "plan_number": 1,
+      "total_semesters": 4,
+      "semester_schedule": [
+        {
+          "semester": 1,
+          "courses": [
+            {
+              "course_number": "CS5800",
+              "title": "Algorithms",
+              "description": "Presents the mathematical techniques used for the design and analysis of computer algorithms. Focuses on algorithmic design paradigms and techniques for analyzing the correctness, time, and space complexity of algorithms. Topics may include asymptotic notation, recurrences, loop invariants, Hoare triples, sorting and searching, advanced data structures, lower bounds, hashing, greedy algorithms, dynamic programming, graph algorithms, and NP-completeness.",
+              "reason": "Foundational for understanding algorithmic principles essential for computer vision and data science tasks.",
+              "credit_hours": "4",
+              "type": "core"
+            },
+            {
+              "course_number": "DS5110",
+              "title": "Essentials of Data Science",
+              "description": "Introduces students to the core tasks in data science, including data collection, storage, tidying, transformation, processing, management, and modeling for the purpose of extracting knowledge from raw observations. Programming is a cross-cutting aspect of the course. Offers students an opportunity to gain experience with data science tasks and tools through short assignments. Includes a term project based on real-world data.",
+              "reason": "Provides a broad foundation in data science essential for understanding data manipulation and modeling in computer vision.",
+              "credit_hours": "4",
+              "type": "core"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 2,
+          "courses": [
+            {
+              "course_number": "DS5220",
+              "title": "Supervised Machine Learning and Learning Theory",
+              "description": "Introduces supervised machine learning, which is the study and design of algorithms that enable computers/machines to learn from experience or data, given examples of data with a known outcome of interest. Offers a broad view of models and algorithms for supervised decision making. Discusses the methodological foundations behind the models and the algorithms, as well as issues of practical implementation and use, and techniques for assessing the performance. Includes a term project involving programming and/or work with real-world data sets. Requires proficiency in a programming language such as Python, R, or MATLAB.",
+              "reason": "Key for understanding machine learning models used in computer vision applications.",
+              "credit_hours": "4",
+              "type": "core"
+            },
+            {
+              "course_number": "DS5230",
+              "title": "Unsupervised Machine Learning and Data Mining",
+              "description": "Introduces unsupervised machine learning and data mining, which is the process of discovering and summarizing patterns from large amounts of data, without examples of data with a known outcome of interest. Offers a broad view of models and algorithms for unsupervised data exploration. Discusses the methodological foundations behind the models and the algorithms, as well as issues of practical implementation and use, and techniques for assessing the performance. Includes a term project involving programming and/or work with real-life data sets. Requires proficiency in a programming language such as Python, R, or MATLAB.",
+              "reason": "Enhances understanding of pattern recognition and data exploration techniques vital for computer vision.",
+              "credit_hours": "4",
+              "type": "core"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 3,
+          "courses": [
+            {
+              "course_number": "CS5330",
+              "title": "Pattern Recognition and Computer Vision",
+              "description": "Introduces fundamental techniques for low-level and high-level computer vision. Examines image formation, early processing, boundary detection, image segmentation, texture analysis, shape from shading, photometric stereo, motion analysis via optic flow, object modeling, shape description, and object recognition (classification). Discusses models of human vision (gestalt effects, texture perception, subjective contours, visual illusions, apparent motion, mental rotations, and cyclopean vision). Requires knowledge of linear algebra.",
+              "reason": "Core elective that introduces essential computer vision techniques, directly aligned with the student\u2019s goal.",
+              "credit_hours": "4",
+              "type": "elective"
+            },
+            {
+              "course_number": "EECE7370",
+              "title": "Advanced Computer Vision",
+              "description": "Offers students an opportunity to obtain practical knowledge in computer vision and to develop skills for being a successful researcher in this field. The goal of the field of computer vision is to make useful decisions about real physical objects and scenes based on sensed images. Achieving this goal requires obtaining and using descriptions (models) of the sensors and the world. Computer vision is an exciting field that builds on very diverse disciplines such as image processing, statistics, pattern recognition, control theory and system identification, physics, geometry, computer graphics, and machine learning. Course material includes state-of-the-art in the field, current research trends, and algorithms and their applications, with an emphasis on the mathematical methods used.",
+              "reason": "Provides advanced, research-oriented knowledge in computer vision, crucial for specialization.",
+              "credit_hours": "4",
+              "type": "elective"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 4,
+          "courses": [
+            {
+              "course_number": "CS7150",
+              "title": "Deep Learning",
+              "description": "Introduces deep learning, including the statistical learning framework, empirical risk minimization, loss function selection, fully connected layers, convolutional layers, pooling layers, batch normalization, multilayer perceptrons, convolutional neural networks, autoencoders, U-nets, residual networks, gradient descent, stochastic gradient descent, backpropagation, autograd, visualization of neural network features, robustness and adversarial examples, interpretability, continual learning, and applications in computer vision and natural language processing. Assumes students already have a basic knowledge of machine learning, optimization, linear algebra, and statistics.",
+              "reason": "Essential for mastering modern deep learning techniques used in state-of-the-art computer vision systems.",
+              "credit_hours": "4",
+              "type": "elective"
+            },
+            {
+              "course_number": "EECE5639",
+              "title": "Computer Vision",
+              "description": "Introduces topics such as image formation, segmentation, feature extraction, matching, shape recovery, dynamic scene analysis, and object recognition. Computer vision brings together imaging devices, computers, and sophisticated algorithms to solve problems in industrial inspection, autonomous navigation, human-computer interfaces, medicine, image retrieval from databases, realistic computer graphics rendering, document analysis, and remote sensing. The goal of computer vision is to make useful decisions about real physical objects and scenes based on sensed images. Computer vision is an exciting but disorganized field that builds on very diverse disciplines such as image processing, statistics, pattern recognition, control theory, system identification, physics, geometry, computer graphics, and learning theory. Requires good programming experience in Matlab or C++.",
+              "reason": "Provides comprehensive coverage of core computer vision topics, reinforcing practical and theoretical skills.",
+              "credit_hours": "4",
+              "type": "elective"
+            }
+          ],
+          "total_credits": 8
+        }
+      ],
+      "reason_behind_planning": "This four-semester plan was structured to first establish a solid foundation in algorithms and data science, which are crucial for understanding the theoretical underpinnings of computer vision and machine learning. The initial semester includes core courses that are prerequisites for more advanced topics. The second semester deepens machine learning knowledge, both supervised and unsupervised, which are fundamental for interpreting visual data. The third semester introduces specialized computer vision electives that cover both foundational and advanced topics, aligning with the goal of becoming a computer vision specialist. The final semester emphasizes deep learning and practical computer vision applications, ensuring the student gains both theoretical knowledge and practical skills. Prerequisites are respected by sequencing courses accordingly, and workload is balanced across semesters. Electives are chosen to complement core courses, with at least three electives included to meet the credit requirements and provide breadth in the field. All core courses are included exactly once, and the electives are selected to maximize relevance and depth in computer vision, ensuring a comprehensive and balanced curriculum within the four-semester constraint.",
+      "total_credits": 32
+    }
+  ],
+  [
+    {
+      "plan_number": 1,
+      "total_semesters": "4",
+      "semester_schedule": [
+        {
+          "semester": 1,
+          "courses": [
+            {
+              "course_number": "CS5010",
+              "title": "Programming Design Paradigm",
+              "description": "Introduces modern program design paradigms. Starts with functional program design, introducing the notion of a design recipe. The latter consists of two parts: a task organization (ranging from the description of data to the creation of a test suite) and a data-oriented approach to the organization of programs (ranging from atomic data to self-referential data definitions and functions as data). The course then progresses to object-oriented design, explaining how it generalizes and contrasts with functional design. In addition to studying program design, students also have an opportunity to practice pair-programming and public code review techniques, as found in industry today.",
+              "reason": "Foundational course to develop strong programming skills necessary for NLP and data handling tasks.",
+              "credit_hours": "4",
+              "type": "core"
+            },
+            {
+              "course_number": "CS5200",
+              "title": "Database Management Systems",
+              "description": "Introduces relational database management systems as a class of software systems. Prepares students to be sophisticated users of database management systems. Covers design theory, query language, and performance/tuning issues. Topics include relational algebra, SQL, stored procedures, user-defined functions, cursors, embedded SQL programs, client-server interfaces, entity-relationship diagrams, normalization, B-trees, concurrency, transactions, database security, constraints, object-relational DBMSs, and specialized engines such as spatial, text, XML conversion, and time series. Includes exercises using a commercial relational or object-relational database management system.",
+              "reason": "Essential for understanding data storage, retrieval, and management, which is crucial for handling large datasets and big data processing.",
+              "credit_hours": "4",
+              "type": "core"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 2,
+          "courses": [
+            {
+              "course_number": "CS5800",
+              "title": "Algorithms",
+              "description": "Presents the mathematical techniques used for the design and analysis of computer algorithms. Focuses on algorithmic design paradigms and techniques for analyzing the correctness, time, and space complexity of algorithms. Topics may include asymptotic notation, recurrences, loop invariants, Hoare triples, sorting and searching, advanced data structures, lower bounds, hashing, greedy algorithms, dynamic programming, graph algorithms, and NP-completeness.",
+              "reason": "Provides critical understanding of algorithmic foundations necessary for efficient NLP models and big data processing.",
+              "credit_hours": "4",
+              "type": "core"
+            },
+            {
+              "course_number": "CS6120",
+              "title": "Natural Language Processing",
+              "description": "Provides an introduction to the computational modeling of human language, the ongoing effort to create computer programs that can communicate with people in natural language, and current applications of the natural language field, such as automated document classification, intelligent query processing, and information extraction. Topics include computational models of grammar and automatic parsing, statistical language models and the analysis of large text corpuses, natural language semantics and programs that understand language, models of discourse structure, and language use by intelligent agents. Course work includes formal and mathematical analysis of language models, and implementation of working programs that analyze and interpret natural language text.",
+              "reason": "Core NLP course to build foundational understanding of language models, parsing, semantics, and applications relevant to LLMs.",
+              "credit_hours": "4",
+              "type": "core"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 3,
+          "courses": [
+            {
+              "course_number": "CS6180",
+              "title": "Foundations for Generative AI",
+              "description": "Offers students an opportunity to obtain both the theoretical foundation and practical skills to understand, analyze, and apply generative AI techniques effectively. Begins with foundational concepts in AI and machine learning; progresses to advanced natural language processing, transformer models, and large language models; and concludes with cutting-edge techniques like prompt engineering, domain-specific adaptations, and retrieval-augmented generation.",
+              "reason": "Prepares the student for advanced LLM topics, focusing on generative models, transformers, and prompt engineering, essential for specialization.",
+              "credit_hours": "4",
+              "type": "elective"
+            },
+            {
+              "course_number": "EECE5668",
+              "title": "Large Language Models",
+              "description": "Explores the foundations, methodologies, and applications of large language models (LLMs), cutting-edge systems reshaping the field of artificial intelligence. Covers core topics including model architectures, training objectives, fine-tuning strategies, prompt engineering, evaluation metrics, and challenges such as bias, fairness, and interpretability. Highlights real-world uses of LLMs in tasks such as text generation, translation, summarization, and reasoning. Offers opportunities to examine recent research and trends driving the rapid evolution of LLMs. Emphasizes both theoretical understanding and practical applications using widely adopted tools and libraries for developing and deploying LLMs. Encourages critical thinking about the societal implications of deploying these models at scale.",
+              "reason": "Deepens knowledge specifically in LLMs, covering architectures, training, and real-world applications, aligning with the goal to become an LLM specialist.",
+              "credit_hours": "4",
+              "type": "elective"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 4,
+          "courses": [
+            {
+              "course_number": "DS5220",
+              "title": "Supervised Machine Learning and Learning Theory",
+              "description": "Introduces supervised machine learning, which is the study and design of algorithms that enable computers/machines to learn from experience or data, given examples of data with a known outcome of interest. Offers a broad view of models and algorithms for supervised decision making. Discusses the methodological foundations behind the models and the algorithms, as well as issues of practical implementation and use, and techniques for assessing the performance. Includes a term project involving programming and/or work with real-world data sets. Requires proficiency in a programming language such as Python, R, or MATLAB.",
+              "reason": "Provides essential machine learning theory and techniques, supporting the development and understanding of large-scale models and data-driven NLP applications.",
+              "credit_hours": "4",
+              "type": "elective"
+            },
+            {
+              "title": "Large Language Models in Healthcare: Foundations and Applications",
+              "description": "Examines fundamentals and applications of large language models in healthcare. Covers core architectures such as recurrent neural networks and transformers, attention mechanisms, and self-supervised learning techniques. Investigates the role of LLMs in clinical applications including chatbots, question answering systems, sentiment analysis, and retrieval-augmented generation. Highlights the integration of LLMs with medical imaging, healthcare systems, and drug discovery workflows. Emphasizes practical methods for developing, fine-tuning, and evaluating LLM-based solutions using real-world healthcare datasets.",
+              "credit_hours": "4",
+              "course_number": "GSEN6320",
+              "college": "College of Engineering EN",
+              "department": "Grad Engineering - Multidiscpl GSEN",
+              "dept_code": "GSEN",
+              "prerequisites": "None"
+            }
+          ],
+          "total_credits": 8
+        }
+      ],
+      "reason_behind_planning": "This plan was structured to ensure all core courses are completed early, establishing a solid foundation in programming, databases, algorithms, and NLP. The first semester focuses on foundational skills, while the second semester deepens NLP knowledge with the core NLP course. The third semester introduces advanced topics in generative AI and LLMs, aligning with the student's goal to specialize in large language models and big data. Electives are scheduled in the third and fourth semesters to build specialized expertise without overloading, with the final semester emphasizing machine learning theory to support understanding of large-scale models. Prerequisites are respected by sequencing courses accordingly, and workload is balanced across semesters within the 8-credit limit. The plan ensures coverage of essential topics, practical skills, and research-oriented knowledge necessary for becoming an NLP and LLM specialist.",
+      "total_credits": 32
+    }
+  ],
+  [
+    {
+      "plan_number": 1,
+      "total_semesters": "4",
+      "semester_schedule": [
+        {
+          "semester": 1,
+          "courses": [
+            {
+              "course_number": "CS5010",
+              "title": "Programming Design Paradigm",
+              "description": "Introduces modern program design paradigms. Starts with functional program design, introducing the notion of a design recipe. The latter consists of two parts: a task organization (ranging from the description of data to the creation of a test suite) and a data-oriented approach to the organization of programs (ranging from atomic data to self-referential data definitions and functions as data). The course then progresses to object-oriented design, explaining how it generalizes and contrasts with functional design. In addition to studying program design, students also have an opportunity to practice pair-programming and public code review techniques, as found in industry today.",
+              "reason": "Foundational programming paradigms essential for data engineering and cloud development.",
+              "credit_hours": "4",
+              "type": "core"
+            },
+            {
+              "course_number": "CS5200",
+              "title": "Database Management Systems",
+              "description": "Introduces relational database management systems as a class of software systems. Prepares students to be sophisticated users of database management systems. Covers design theory, query language, and performance/tuning issues. Topics include relational algebra, SQL, stored procedures, user-defined functions, cursors, embedded SQL programs, client-server interfaces, entity-relationship diagrams, normalization, B-trees, concurrency, transactions, database security, constraints, object-relational DBMSs, and specialized engines such as spatial, text, XML conversion, and time series. Includes exercises using a commercial relational or object-relational database management system.",
+              "reason": "Critical for understanding data storage, retrieval, and management at scale.",
+              "credit_hours": "4",
+              "type": "core"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 2,
+          "courses": [
+            {
+              "course_number": "CS5800",
+              "title": "Algorithms",
+              "description": "Presents the mathematical techniques used for the design and analysis of computer algorithms. Focuses on algorithmic design paradigms and techniques for analyzing the correctness, time, and space complexity of algorithms. Topics may include asymptotic notation, recurrences, loop invariants, Hoare triples, sorting and searching, advanced data structures, lower bounds, hashing, greedy algorithms, dynamic programming, graph algorithms, and NP-completeness.",
+              "reason": "Provides essential algorithmic knowledge for scalable data processing and system design.",
+              "credit_hours": "4",
+              "type": "core"
+            },
+            {
+              "course_number": "CS6240",
+              "title": "Large-Scale Parallel Data Processing",
+              "description": "Covers big-data analysis techniques that scale out with increasing number of compute nodes, e.g., for cloud computing. Emphasizes approaches for problem and data partitioning that distribute work effectively, while keeping total cost for computation and data transfer low. Studies and analyzes deterministic and random algorithms from a variety of domains, including graphs, data mining, linear algebra, and information retrieval in terms of their cost, scalability, and robustness against skew. Course work emphasizes hands-on programming experience with modern state-of-the-art big-data processing technology. Students who do not meet course prerequisites may seek permission of instructor.",
+              "reason": "Key course for understanding distributed data processing frameworks crucial for large-scale data engineering.",
+              "credit_hours": "4",
+              "type": "core"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 3,
+          "courses": [
+            {
+              "course_number": "CS6620",
+              "title": "Fundamentals of Cloud Computing",
+              "description": "Covers fundamentals of cloud computing, including virtualization and containers, distributed file systems and object stores, infrastructure as a service platforms, open source cloud platforms, key big data platforms, and topics in data center scale systems. Combines classroom material delivered via lectures, readings from literature, student presentations, and a semester-long software project.",
+              "reason": "Provides foundational cloud infrastructure knowledge necessary for a cloud data specialist.",
+              "credit_hours": "4",
+              "type": "elective"
+            },
+            {
+              "course_number": "GSEN7200",
+              "title": "Big-Data System Engineering Using Scala",
+              "description": "Covers the fundamentals of functional programming with Scala and seeks to provide a basic, practical foundation for students who want to use it as a language for working with big-data platforms. Scala is one of a new breed of general-purpose functional programming languages that is strongly typed and is object oriented. It runs on the Java virtual machine and is able to share libraries from the vast collection of open-source projects written in Java. For these reasons it is readily accessible by programmers of Java, C++, and similar languages.",
+              "reason": "Introduces a powerful language for building scalable data pipelines and systems, aligning with large-scale data engineering.",
+              "credit_hours": "4",
+              "type": "elective"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 4,
+          "courses": [
+            {
+              "course_number": "GSEN6105",
+              "title": "Data Science Engineering Methods and Tools",
+              "description": "Introduces the fundamental techniques for machine learning and data science engineering. Discusses a variety of machine learning algorithms, along with examples of their implementation, evaluation, and best practices. Lays the foundation of how learning models are derived from complex data pipelines, both algorithmically and practically. Topics include supervised learning (parametric/nonparametric algorithms, support vector machines, kernels, neural networks, deep learning) and unsupervised learning (clustering, dimensionality reduction, recommender systems). Based on numerous real-world case studies.",
+              "reason": "Provides essential data science techniques to complement data engineering skills, enabling end-to-end data solutions.",
+              "credit_hours": "4",
+              "type": "elective"
+            },
+            {
+              "title": "Principles of Scalable Data Management: Theory, Algorithms, and Database Systems",
+              "description": "Covers the algorithms, core principles, and foundational concepts for managing data at scale. Topics include data models, query languages, query execution and optimization, complexity of query execution and query resilience, data stream processing, parallel data processing, transactions, linear vs. relational algebra, factorizations, and uncertainty in logic. Requires standard CS knowledge of algorithms and hardness (e.g., a typical undergraduate class based on a standard algorithms textbook such as Ericson; Cormen, Leiserson, Rivest,and Stein; or Dasgupta, Papadimitriou, and Vazirani). Offers students an opportunity to gain hands-on experience through smaller assignments and a project. The project is flexible to allow students to explore scalable data management and analysis aspects related to their PhD research.",
+              "credit_hours": "4",
+              "course_number": "CS7240",
+              "college": "Khoury Coll of Comp Sciences CS",
+              "department": "Computer Science CS",
+              "dept_code": "CS",
+              "prerequisites": "None"
+            }
+          ],
+          "total_credits": 8
+        }
+      ],
+      "reason_behind_planning": "This plan was structured to prioritize core foundational courses early in the program, ensuring prerequisites are respected and foundational knowledge is established. Semester 1 includes programming and database management, which are essential for understanding data storage and manipulation. Semester 2 deepens algorithmic understanding and introduces big-data processing techniques, aligning with the skills needed for large-scale data engineering. Semester 3 expands into cloud computing and scalable systems, critical for a cloud data specialist role, while also introducing Scala for building scalable data pipelines. Semester 4 consolidates knowledge with advanced data science methods, rounding out the skill set for a comprehensive expertise in large-scale data engineering and cloud data solutions. The elective courses are carefully chosen to complement core topics, providing practical skills in cloud infrastructure, distributed systems, and data science tools. The workload is balanced across semesters, each with exactly 8 credits, within the allowed range, and all courses are scheduled respecting prerequisites. The plan ensures all core courses are included exactly once, with electives added to meet the credit requirements, resulting in a total of 33 credits, meeting the program's graduation criteria.",
+      "total_credits": 32
+    }
+  ],
+  [
+    {
+      "plan_number": 1,
+      "total_semesters": "4",
+      "semester_schedule": [
+        {
+          "semester": 1,
+          "courses": [
+            {
+              "course_number": "CY5001",
+              "title": "Cybersecurity: Technologies, Threats, and Defenses",
+              "description": "Seeks to provide a systematic understanding of cyberspace technology and applications deployed in the global digital infrastructure. Covers topics in computer networks, server architectures, operating systems, and scripting. All the techniques and tools included in the course are oriented to serve as instruments of security administrators and cybersecurity professionals. Uses practical hands-on labs running on virtual machines and containers hosted in the cloud computing environment to train students. For that reason, a practical overview of virtualization technologies, containerization, and cloud computing models is provided.",
+              "reason": "This foundational course introduces core cybersecurity concepts and practical skills necessary for subsequent advanced courses and projects.",
+              "credit_hours": "4",
+              "type": "core"
+            },
+            {
+              "course_number": "CY5010",
+              "title": "Cybersecurity Principles and Practices",
+              "description": "Introduces information security via concepts of confidentiality, integrity, and availability. Discusses ethical, legal, and privacy ramifications while reviewing various laws, such as the Patriot Act, the Gramm-Leach-Bliley Act, and the General Data Protection Regulation. Covers security methods, controls, procedures, economics of cybercrime, criminal procedure, and forensics.",
+              "reason": "This course complements the first by covering security principles, legal considerations, and practices essential for a comprehensive understanding of cybersecurity.",
+              "credit_hours": "4",
+              "type": "core"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 2,
+          "courses": [
+            {
+              "course_number": "CY5200",
+              "title": "Security Risk Management and Assessment",
+              "description": "Creates the opportunity for competency in the development of information security policies and plans including controls for physical, software, and networks. Discusses different malicious attacks, such as viruses and Trojan horses, detection strategies, countermeasures, damage assessment, and control. Covers information system risk analysis and management, audits, and log files. Uses case studies, site visits, and works with commercial products.",
+              "reason": "This course develops risk management skills, crucial for designing secure cloud and enterprise systems, aligning with the student's goal of cloud security engineering.",
+              "credit_hours": "4",
+              "type": "core"
+            },
+            {
+              "course_number": "CY5130",
+              "title": "Computer System Security",
+              "description": "Offers a practical overview of enterprise computer security, operating systems security, and related topics. Applies concepts such as authentication, access control, integrity, and audit to the modern operating system. Discusses and demonstrates system, process, memory, and file system-level defenses\u2014and the attacks against them. Also discusses topics in data security and virtualization. Uses hands-on labs to reinforce skills and provide practical experience.",
+              "reason": "This course provides practical knowledge of system security and virtualization, essential for understanding cloud security infrastructure.",
+              "credit_hours": "4",
+              "type": "elective"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 3,
+          "courses": [
+            {
+              "course_number": "CS6620",
+              "title": "Fundamentals of Cloud Computing",
+              "description": "Covers fundamentals of cloud computing, including virtualization and containers, distributed file systems and object stores, infrastructure as a service platforms, open source cloud platforms, key big data platforms, and topics in data center scale systems. Combines classroom material delivered via lectures, readings from literature, student presentations, and a semester-long software project.",
+              "reason": "This course offers a broad understanding of cloud computing fundamentals, a critical area for a future cloud security engineer.",
+              "credit_hours": "4",
+              "type": "elective"
+            },
+            {
+              "course_number": "CY5065",
+              "title": "Cloud Security Practices",
+              "description": "Introduces the fundamentals of cloud computing. Examines the strategies to implement security controls, perform risk assessments, and handle incident detection and response. Emphasizes maintenance of a business-minded security life cycle for cloud-based environments. Offers students an opportunity to obtain an understanding of various security challenges, threat models, and data privacy issues in regard to compliance and legal implications.",
+              "reason": "This course directly addresses cloud security strategies, making it essential for achieving the student's goal.",
+              "credit_hours": "4",
+              "type": "elective"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 4,
+          "courses": [
+            {
+              "course_number": "CY7900",
+              "title": "Capstone Project",
+              "description": "Draws together candidates from diverse backgrounds (technical, legal, and/or law enforcement) in a collaborative activity to address one or more security issues from an integrated perspective. Requires a project proposal, generally industrially oriented, to be submitted and accepted prior to the semester in which the project is to be undertaken.",
+              "reason": "This capstone synthesizes learning and demonstrates applied skills in cybersecurity, ideally in cloud security contexts.",
+              "credit_hours": "4",
+              "type": "core"
+            },
+            {
+              "title": "Network Security Practices",
+              "description": "Explores issues involved in the security of computer networks. Topics include firewalls, viruses, virtual private networks, Internet security, and wireless security. Includes case studies and laboratory exercises.",
+              "credit_hours": "4",
+              "course_number": "CY5150",
+              "college": "Khoury Coll of Comp Sciences CS",
+              "department": "Cybersecurity CY",
+              "dept_code": "CY",
+              "prerequisites": "Cybersecurity 5001 Graduate C- Or Cybersecurity 5010 Graduate C-"
+            }
+          ],
+          "total_credits": 8
+        }
+      ],
+      "reason_behind_planning": "This four-semester plan begins with foundational cybersecurity courses to establish core knowledge and practical skills. Semester 1 introduces essential concepts and practices, setting a base for more advanced topics. Semester 2 emphasizes risk management and system security, including virtualization, which is vital for cloud environments. Semester 3 shifts focus to cloud computing fundamentals and security-specific strategies, aligning with the student's goal of becoming a cloud security engineer. The final semester culminates with a capstone project to integrate and demonstrate applied knowledge, followed by reinforcement of system security principles. Prerequisites are respected by sequencing courses accordingly, and workload is balanced at 8 credits per semester. The electives were selected to complement core courses, deepen understanding of cloud security, and ensure the total credits meet the program requirements, avoiding any course repetition or omission of core courses. This structure provides a comprehensive, balanced, and goal-oriented pathway within the four-semester constraint.",
+      "total_credits": 32
+    }
+  ],
+  [
+    {
+      "plan_number": 1,
+      "total_semesters": "4",
+      "semester_schedule": [
+        {
+          "semester": 1,
+          "courses": [
+            {
+              "course_number": "GSEN5100",
+              "title": "Application Engineering and Development",
+              "description": "Takes students in a step-by-step manner through the process of systematically combining UX techniques, business processes, and complex data models to assemble applications that are user-friendly and meet business requirements. Employs the object-oriented paradigm, visual user experience, and system design principles to put together complicated, powerful, real-world applications. The primary objective of this course is to practice social-technical software engineering methods and tools to solve real-world problems. Offers students an opportunity to learn innovative design and programming techniques to build significant business applications quickly; to practice simple and smart ways of making software construction enjoyable; and to master the art of how to systematically write software programs to solve any business problem.",
+              "reason": "As the foundational core course, it introduces essential application development concepts, setting the stage for advanced topics and projects in subsequent semesters.",
+              "credit_hours": "4",
+              "type": "core"
+            },
+            {
+              "course_number": "GSEN6200",
+              "title": "Concepts of Object-Oriented Design",
+              "description": "Introduces object-oriented design and programming via the Java programming language; the use of inheritance, composition, and interface classes in software design; development of Java applets and applications; study of the Java class libraries, including the swing tool kit for building human computer interfaces, the network package for development of client-server systems, and the collections\u2019 package for data structures and sorting algorithms. Requires knowledge of C programming.",
+              "reason": "This course deepens understanding of object-oriented principles crucial for Java development, directly supporting subsequent courses in web and application design.",
+              "credit_hours": "4",
+              "type": "elective"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 2,
+          "courses": [
+            {
+              "course_number": "GSEN6220",
+              "title": "Enterprise Software Design",
+              "description": "Designed to build on previous experience in concepts of object-oriented design courses with equal focus in the three areas of architecture, design, and implementation. Instruction and hands-on exercises cover both server-side and client-side web programming. Offers students an opportunity to build a conceptual understanding and to gain practical experience with popular frameworks (Spring MVC, Hibernate, and Dojo or jQuery) that increase productivity, empower developers, and greatly simplify web development. The goal is to be able to build the server side and client side of substantial web-based, client-server, database-intensive, multitier applications.",
+              "reason": "This elective enhances skills in web application architecture, essential for Java-based enterprise development, building on core design principles.",
+              "credit_hours": "4",
+              "type": "elective"
+            },
+            {
+              "course_number": "GSEN7230",
+              "title": "Software Engineering",
+              "description": "Looks at the software life cycle (requirements analysis and specification, software design, coding, testing, and maintenance). Offers verification, validation, and documentation at various stages of the life cycle. Covers the Unified Modeling Language as applied to the software life cycle. Covers applications of design patterns. Overviews user interface design, software metrics, and software development environments. Emphasis is on modular software construction and development of modular libraries. Requires a small software development project.",
+              "reason": "Critical for understanding the software development process, ensuring quality, and applying best practices in building robust Java applications.",
+              "credit_hours": "4",
+              "type": "elective"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 3,
+          "courses": [
+            {
+              "course_number": "GSEN6300",
+              "title": "Software Design Patterns and Engineering",
+              "description": "Covers design patterns including Factory, Command, and Decorator. Design patterns allow software engineers to use abstraction to design software that is extensible, maintainable, and cost-effective. Each design pattern is implemented using industry best practices and shown to solve real-world problems. Uses a pragmatic teach-by-example/learn-by-doing methodology; lecture examples can be applied to any object-oriented language. Offers students an opportunity to master concepts and develop skills in a demystifying and easy-to-absorb format.",
+              "reason": "This course provides essential design pattern knowledge, enabling the student to write flexible and maintainable Java code, vital for scalable software solutions.",
+              "credit_hours": "4",
+              "type": "elective"
+            },
+            {
+              "course_number": "GSEN6105",
+              "title": "Data Science Engineering with Python",
+              "description": "Studies the Python programming language with data science as the application domain. Offers students an opportunity to learn how to perform complex numerical calculations, fixed data types, space efficiency, and vector manipulations. Covers tools and techniques for manipulating tables, spreadsheets, and group and pivot tables involving extremely large data sets. Covers large multidimensional arrays and matrices and the high-level mathematical functions to operate on these arrays. Studies how to use Python to manipulate the classic math and science algorithms. Analyzes helper functions such as linear and nonlinear regression, integration, Fourier transformations, numerical optimization, etc. Includes higher-level classes for manipulating and visualizing data. Applies tools and techniques to classical data science using cases such as time series forecasting, social network analysis, text analytics, and big data processing.",
+              "reason": "While focusing on Python, this course enhances data manipulation skills and analytical thinking, complementing Java development with data science insights.",
+              "credit_hours": "4",
+              "type": "elective"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 4,
+          "courses": [
+            {
+              "course_number": "GSEN7205",
+              "title": "Advanced Application Engineering Project",
+              "description": "Offers students an opportunity to master advanced software design and programming techniques for building complex software applications quickly. The engineering issues addressed assume the business problems are difficult to understand and manage in a practical manner\u2014the system capacity must support thousands or even millions of users in a multitude of roles. Addresses high-performance computing requirements such as concurrency and control, scalability, replication, and failover.",
+              "reason": "This capstone project consolidates all prior learning, emphasizing high-performance, scalable Java applications aligned with real-world enterprise needs.",
+              "credit_hours": "4",
+              "type": "core"
+            },
+            {
+              "course_number": "CS5500",
+              "title": "Foundations of Software Engineering",
+              "description": "Covers the foundations of software engineering, including software development life cycle models (e.g., waterfall, spiral, agile); requirements analysis; user-centered design; software design principles and patterns; testing (functional testing, structural testing, testing strategies); code refactoring and debugging; software architecture and design; and integration and deployment. Includes a course project where some of the software engineering methods (from requirements analysis to testing) are applied in a team-based setting. Requires admission to MS program or completion of all transition courses.",
+              "reason": "This comprehensive course ensures the student understands the full software engineering lifecycle, essential for managing Java projects professionally.",
+              "credit_hours": "4",
+              "type": "core"
+            }
+          ],
+          "total_credits": 8
+        }
+      ],
+      "reason_behind_planning": "This plan was structured to prioritize foundational core courses early, ensuring the student gains essential application development and object-oriented design skills upfront. The first semester introduces core concepts, while the second semester builds on design and enterprise web development, critical for Java enterprise applications. The third semester introduces advanced design patterns and data science tools, broadening analytical and architectural skills. The final semester consolidates learning through a capstone project focused on high-performance, scalable applications, and a comprehensive software engineering course to prepare for real-world Java development roles. Prerequisites are respected by sequencing courses like 'Concepts of Object-Oriented Design' before advanced design and engineering courses. The workload is balanced across four semesters, each with 8 credits, avoiding overloads. Electives are chosen to diversify skills without repetition, emphasizing web frameworks, design patterns, and data science, all relevant to a Java development career. This approach ensures a balanced, comprehensive, and practical learning pathway aligned with the goal of becoming a Java developer in software engineering.",
+      "total_credits": 32
+    }
+  ],
+  [
+    {
+      "plan_number": 1,
+      "total_semesters": 5,
+      "semester_schedule": [
+        {
+          "semester": 1,
+          "courses": [
+            {
+              "course_number": "FINA6200",
+              "title": "Value Creation through Financial Decision Making",
+              "description": "Highlights the role of financial management as a source of value creation in a competitive global environment characterized by rapid technological, personal, and market changes. Offers students an opportunity to develop tools and techniques of financial analysis and valuation to support financial decision making. Presents future managers with actual business problems to learn to apply the tools of financial analysis to strategic decisions faced by the firm, such as capital budgeting and capital structure.",
+              "reason": "This foundational core course introduces key financial decision-making tools essential for understanding corporate finance, setting the stage for advanced topics and electives.",
+              "credit_hours": "3",
+              "type": "core"
+            },
+            {
+              "course_number": "FINA6202",
+              "title": "Analysis of Financial Institutions and Markets",
+              "description": "Introduces the domestic and international financial system and the institutions within it. Develops data and quantitative analysis tools utilized for economic and financial modeling and analysis. Emphasis is on regression analysis and its application, including how to build and interpret statistical models. Topics include the major types of financial institutions that operate within the global economy and the financial instruments employed by them; how exchange rates, interests rates, and security prices are determined and how they affect the global economy; and how governments and central banks impact economic and financial conditions.",
+              "reason": "Provides essential understanding of financial markets and institutions, crucial for a comprehensive grasp of corporate finance in a global context.",
+              "credit_hours": "3",
+              "type": "core"
+            }
+          ],
+          "total_credits": 6
+        },
+        {
+          "semester": 2,
+          "courses": [
+            {
+              "course_number": "FINA6203",
+              "title": "Investment Analysis",
+              "description": "Familiarizes students with domestic and international financial markets and the securities traded therein. Discusses a variety of techniques for valuation of financial assets and relies heavily on quantitative methods. Critically analyzes such qualitative concepts as market efficiency, intrinsic value, and risk. The contents of this course, descriptive, theoretical, and applied, should provide students with the ability to build unique valuation models to suit the particular investment alternative they wish to scrutinize. Also provides students with an understanding of how investment theory and investment practice relate.",
+              "reason": "Builds on market and institutional knowledge to develop valuation skills, essential for corporate finance and advisory roles.",
+              "credit_hours": "3",
+              "type": "core"
+            },
+            {
+              "course_number": "FINA6204",
+              "title": "International Financial Management",
+              "description": "Develops specific concepts, policies, and techniques for the financial management of the multinational firm. Topics include operation of the foreign exchange markets, foreign exchange risk management, sources and instruments of international financing, foreign direct investment and the management of political risk, multinational capital budgeting, and financing control systems for the multinational firm.",
+              "reason": "Introduces international aspects of finance, critical for advising multinational corporations and understanding global financial strategies.",
+              "credit_hours": "3",
+              "type": "core"
+            }
+          ],
+          "total_credits": 6
+        },
+        {
+          "semester": 3,
+          "courses": [
+            {
+              "course_number": "FINA6205",
+              "title": "Financial Strategy",
+              "description": "Develops financial, analytical, and communication skills necessary to develop and implement a financial strategy consistent with firm value creation in a dynamic environment. Stresses the impact of ethical and legal considerations, global markets, and technological innovation on efficient economic outcomes. Emphasizes written and oral communication skills. Upon completion of this course, students should be able to identify and analyze a firm\u2019s strategic opportunities and propose a suitable financial strategy that is consistent with firm value creation.",
+              "reason": "Focuses on strategic financial planning and decision-making, essential for advisory roles and leadership in corporate finance.",
+              "credit_hours": "3",
+              "type": "core"
+            },
+            {
+              "course_number": "FINA6206",
+              "title": "Finance Seminar",
+              "description": "Structures discussion of current topics in the finance literature. Students read and present the works of leading researchers. Topics are broad and may cover various areas of corporate finance, investments, and institutions. Students also complete an original project emphasizing current methodologies of analysis.",
+              "reason": "Provides exposure to cutting-edge research and current issues in finance, sharpening analytical and presentation skills for advisory roles.",
+              "credit_hours": "3",
+              "type": "core"
+            }
+          ],
+          "total_credits": 6
+        },
+        {
+          "semester": 4,
+          "courses": [
+            {
+              "course_number": "FINA6431",
+              "title": "Corporate Finance",
+              "description": "Introduces the basic framework of corporate finance and financial decision making. Topics include capital budgeting; capital investment decisions; complex valuations; security issues; dividend policy; static and dynamic capital structure; real option analysis; restructuring; bankruptcy; corporate control and governance; the legal, ethical, and regulatory environment of financial management.",
+              "reason": "Core elective providing deep understanding of corporate financial decisions, vital for advisory roles and corporate finance expertise.",
+              "credit_hours": "4",
+              "type": "elective"
+            },
+            {
+              "course_number": "FINA6284",
+              "title": "Financing Innovation and Growth",
+              "description": "Offers an immersion in corporate finance with a specific focus on the financing of innovation and growth at firms. Topics include analyzing and applying finance from the perspective of intrapreneurship as well as entrepreneurship.",
+              "reason": "Focuses on financing innovative ventures, aligning with advisory roles in high-growth or entrepreneurial firms.",
+              "credit_hours": "3",
+              "type": "elective"
+            }
+          ],
+          "total_credits": 7
+        },
+        {
+          "semester": 5,
+          "courses": [
+            {
+              "course_number": "FINA6407",
+              "title": "Financial Modeling",
+              "description": "Introduces financial modeling applications in the fields of risk management, statistics applied to finance, investments, and portfolio management. Offers students an opportunity to develop strong Excel proficiency needed to understand and implement the quantitative aspects of financial topics covered in the various courses taught in the MBA and MSF programs and to learn how to use a variety of spreadsheet tools and techniques to enhance their overall analytical skill set.",
+              "reason": "Practical skill development in financial modeling, essential for advisory roles and quantitative analysis in corporate finance.",
+              "credit_hours": "2",
+              "type": "elective"
+            },
+            {
+              "course_number": "FINA6492",
+              "title": "Advanced Topics in Finance",
+              "description": "Examines current, specialized, and advanced topics in the areas of corporate finance, investments, risk management, valuation, private equity, venture capital, and other areas as appropriate. Course content, pedagogy, and prerequisites vary by topic and instructor.",
+              "reason": "Provides exposure to advanced and specialized finance topics, preparing for high-level advisory work and research.",
+              "credit_hours": "4",
+              "type": "elective"
+            }
+          ],
+          "total_credits": 6
+        }
+      ],
+      "reason_behind_planning": "This plan begins with foundational core courses in the first two semesters to establish a solid understanding of financial management, markets, and valuation techniques, respecting prerequisites and ensuring a logical progression. The third semester emphasizes strategic and current research aspects, fostering analytical and presentation skills vital for advisory roles. The fourth semester introduces a key elective in corporate finance, complemented by a growth-focused elective, aligning with the student's goal to become an expert in corporate finance and advisory. The final semester consolidates practical skills through financial modeling and advanced topics, preparing the student for high-level advisory positions. Workload is balanced across semesters, with 6-7 credits each, avoiding overload and ensuring depth of learning. All core courses are included exactly once, with electives added to meet the minimum credit requirement, and prerequisites are respected throughout the schedule. This structure ensures comprehensive coverage of essential topics, skill development, and readiness for a career in advisory firms.",
+      "total_credits": 31
+    }
+  ],
+  [
+    {
+      "plan_number": 1,
+      "total_semesters": 4,
+      "semester_schedule": [
+        {
+          "semester": 1,
+          "courses": [
+            {
+              "course_number": "FINA6200",
+              "title": "Value Creation through Financial Decision Making",
+              "description": "Highlights the role of financial management as a source of value creation in a competitive global environment characterized by rapid technological, personal, and market changes. Offers students an opportunity to develop tools and techniques of financial analysis and valuation to support financial decision making. Presents future managers with actual business problems to learn to apply the tools of financial analysis to strategic decisions faced by the firm, such as capital budgeting and capital structure.",
+              "reason": "This foundational core course introduces financial decision-making principles crucial for understanding portfolio management and valuation, setting the stage for advanced topics.",
+              "credit_hours": "3",
+              "type": "core"
+            },
+            {
+              "course_number": "FINA6202",
+              "title": "Analysis of Financial Institutions and Markets",
+              "description": "Introduces the domestic and international financial system and the institutions within it. Develops data and quantitative analysis tools utilized for economic and financial modeling and analysis. Emphasis is on regression analysis and its application, including how to build and interpret statistical models. Topics include the major types of financial institutions that operate within the global economy and the financial instruments employed by them; how exchange rates, interests rates, and security prices are determined and how they affect the global economy; and how governments and central banks impact economic and financial conditions.",
+              "reason": "Provides essential understanding of financial markets and institutions, critical for grasping portfolio dynamics and risk factors.",
+              "credit_hours": "3",
+              "type": "core"
+            },
+            {
+              "course_number": "FINA6203",
+              "title": "Investment Analysis",
+              "description": "Familiarizes students with domestic and international financial markets and the securities traded therein. Discusses a variety of techniques for valuation of financial assets and relies heavily on quantitative methods. Critically analyzes such qualitative concepts as market efficiency, intrinsic value, and risk. The contents of this course, descriptive, theoretical, and applied, should provide students with the ability to build unique valuation models to suit the particular investment alternative they wish to scrutinize. Also provides students with an understanding of how investment theory and investment practice relate.",
+              "reason": "Essential for understanding asset valuation and investment strategies, forming a core component for portfolio management expertise.",
+              "credit_hours": "3",
+              "type": "core"
+            }
+          ],
+          "total_credits": 9
+        },
+        {
+          "semester": 2,
+          "courses": [
+            {
+              "course_number": "FINA6204",
+              "title": "International Financial Management",
+              "description": "Develops specific concepts, policies, and techniques for the financial management of the multinational firm. Topics include operation of the foreign exchange markets, foreign exchange risk management, sources and instruments of international financing, foreign direct investment and the management of political risk, multinational capital budgeting, and financing control systems for the multinational firm.",
+              "reason": "Builds on international finance concepts, crucial for understanding global portfolio strategies and risk management.",
+              "credit_hours": "3",
+              "type": "core"
+            },
+            {
+              "course_number": "FINA6205",
+              "title": "Financial Strategy",
+              "description": "Develops financial, analytical, and communication skills necessary to develop and implement a financial strategy consistent with firm value creation in a dynamic environment. Stresses the impact of ethical and legal considerations, global markets, and technological innovation on efficient economic outcomes. Emphasizes written and oral communication skills. Upon completion of this course, students should be able to identify and analyze a firm\u2019s strategic opportunities and propose a suitable financial strategy that is consistent with firm value creation.",
+              "reason": "Critical for understanding strategic financial decision-making, aligning with portfolio management and corporate finance.",
+              "credit_hours": "3",
+              "type": "core"
+            },
+            {
+              "course_number": "FINA6206",
+              "title": "Finance Seminar",
+              "description": "Structures discussion of current topics in the finance literature. Students read and present the works of leading researchers. Topics are broad and may cover various areas of corporate finance, investments, and institutions. Students also complete an original project emphasizing current methodologies of analysis.",
+              "reason": "Provides exposure to current research and advanced topics, fostering analytical skills necessary for expertise.",
+              "credit_hours": "3",
+              "type": "core"
+            }
+          ],
+          "total_credits": 9
+        },
+        {
+          "semester": 3,
+          "courses": [
+            {
+              "course_number": "FINA6432",
+              "title": "Fundamentals of Financial Math and Financial Markets",
+              "description": "Introduces the essential mathematical tools required for modern finance and their application in a high-level programming language. Emphasizes both theoretical concepts and empirical evidence crucial for informed investment decisions. Key topics include linear algebra, calculus (single and multivariable), optimization theory, probability, statistics, and stochastic processes. Empirical subjects include the present value of money, the capital asset pricing model, mean-variance optimization, asset price dynamics, and option pricing.",
+              "reason": "Provides quantitative skills critical for advanced portfolio management techniques and risk assessment.",
+              "credit_hours": "4",
+              "type": "elective"
+            },
+            {
+              "course_number": "FINA6442",
+              "title": "Financial Data and Fintech",
+              "description": "Covers methods of managing data and extracting insights from real-world financial sources. Topics include extracting and organizing data from financial, geospatial, and supply chain sources; financial aggregation; and reporting. Applications include current and emergent data sources employed in finance, risk-weighted assets, market and credit risk modeling, stress testing, and climate risk. Studies major sources of financial data, data visualization, and architecture. Offers hands-on instruction in tools used in the financial industry to process datasets.",
+              "reason": "Enhances data management and analytical skills essential for modern quantitative portfolio management.",
+              "credit_hours": "3",
+              "type": "elective"
+            },
+            {
+              "title": "Fund Management for Managers",
+              "description": "Builds on FINA 6460. Offers students an opportunity to obtain further analytical knowledge, including exposure to and opportunity to perform managerial tasks related to the management and operation of mutual funds. Included in these tasks are reconsideration of the fund\u2019s investment policy statement and asset allocation plan and preparation of accounting statements, dealing with compliance issues, addressing ethical concerns, measuring and managing risk, and performing marketing and fundraising activities. May be repeated up to three times.",
+              "credit_hours": "1",
+              "course_number": "FINA6461",
+              "college": "D'Amore-McKim School Business BA",
+              "department": "Finance & Insurance FINA",
+              "dept_code": "FINA",
+              "prerequisites": "Finance & Insurance 6460 Graduate C- And ( Finance & Insurance 6419 Graduate C- Or Finance & Insurance 6439 Graduate C- )"
+            }
+          ],
+          "total_credits": 8
+        },
+        {
+          "semester": 4,
+          "courses": [
+            {
+              "course_number": "FINA6219",
+              "title": "Portfolio Management",
+              "description": "Develops portfolio construction, revision, and performance measurement. Highlights portfolio construction in an efficient capital market. Topics include risk-return analysis, the effects of diversification on risk reduction, and the costs of inflation, taxes, and transaction costs on fixed income and equity security portfolios. Examines financial models of capital asset pricing as the basis for the analysis of portfolios from the institutional investor\u2019s viewpoint.",
+              "reason": "Core course central to becoming an expert in portfolio management, integrating theoretical and practical aspects.",
+              "credit_hours": "3",
+              "type": "core"
+            },
+            {
+              "course_number": "FINA6240",
+              "title": "Portfolio Construction and Management",
+              "description": "Introduces portfolio construction, management, and reporting with applications in a high-level programming language such as Python, focusing on low-volatility and risk parity investing styles. Students complete two miniprojects that involve position sizing, portfolio rebalancing, stress testing, risk limits, and portfolio reporting.",
+              "reason": "Provides practical skills in portfolio management, rebalancing, and risk analysis, essential for mastery.",
+              "credit_hours": "1",
+              "type": "elective"
+            },
+            {
+              "title": "Computational Finance and Financial Econometrics",
+              "description": "Covers many aspects of the contemporary quantitative finance toolkit. Uses standard econometrics to address empirical finance questions such as estimating stock betas and efficient market tests. Includes advanced econometrics for non-stationary data and limited dependent variables, with cointegration/statistical arbitrage applications and bankruptcy modeling; quantitative research and portfolio management techniques like factor portfolio sorts (including machine learning and Big Data); and quantitative techniques, such as Monte Carlo simulations, to value derivatives and for pricing exotic options.",
+              "credit_hours": "4",
+              "course_number": "ECON5220",
+              "college": "Coll of Soc Sci & Humanities SH",
+              "department": "Economics ECON",
+              "dept_code": "ECON",
+              "prerequisites": "Economics 2560 Undergraduate C- Or Graduate Admission REQ"
+            }
+          ],
+          "total_credits": 8
+        }
+      ],
+      "reason_behind_planning": "This four-semester plan was structured to ensure all core courses are completed early, respecting prerequisites and building foundational knowledge in finance, investment analysis, international finance, and strategic financial management. The initial semesters focus on core courses to establish a strong theoretical and analytical base. Electives are introduced in the third semester to deepen quantitative and data skills relevant to portfolio management, aligning with the student's goal of becoming an expert. The final semester emphasizes practical portfolio management courses, including the core FINA6219 and FINA6240, which synthesize prior knowledge into applied skills. Workload is balanced across semesters, with each semester containing approximately 8 credits, adhering to scheduling constraints. Prerequisites are respected by sequencing courses accordingly, and no courses are skipped or duplicated. The selected electives complement the core curriculum, providing advanced quantitative, data, and management skills necessary for expertise in portfolio management.",
+      "total_credits": 34
+    }
+  ]
+]

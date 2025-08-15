@@ -1,0 +1,8 @@
+/testing/VectorDB
+/backend/agent/VectorDB
+/backend/__pycache__
+/backend/.env
+/backend/agent/__pycache__
+/frontend/node_modules
+/testing/.env
+/testing/utils/.env
