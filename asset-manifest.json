@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/JayJajoo/LLM-Project/tree/main/frontend/static/css/main.c7ec3132.css",
+    "main.js": "/JayJajoo/LLM-Project/tree/main/frontend/static/js/main.1f2114a7.js",
+    "index.html": "/JayJajoo/LLM-Project/tree/main/frontend/index.html",
+    "main.c7ec3132.css.map": "/JayJajoo/LLM-Project/tree/main/frontend/static/css/main.c7ec3132.css.map",
+    "main.1f2114a7.js.map": "/JayJajoo/LLM-Project/tree/main/frontend/static/js/main.1f2114a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7ec3132.css",
+    "static/js/main.1f2114a7.js"
+  ]
+}
