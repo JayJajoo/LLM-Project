@@ -316,7 +316,7 @@ This project is available for educational and research purposes.
 
 ## 🎥 Demo
 
-Watch the full project demo: [Course Planner Demo Video](https://drive.google.com/file/d/1X7VfZkQt0LlTREotseXJpb9ZeZMvxSE/view?usp=drive_link)
+Watch the full project demo: [Course Planner Demo Video](https://drive.google.com/file/d/1X7VfZkQ-t0LlTREotseXJpb9ZeZMvxSE/view?usp=drive_link)
 
 ---
 
