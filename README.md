@@ -46,7 +46,8 @@ This project addresses the challenges students face in academic course planning 
 
 The system is built using a graph-based multi-agent architecture powered by LangGraph. The workflow orchestrates multiple specialized agents that handle different aspects of course planning, all coordinated through `backend/agent/agent.py`.
 
-![System Architecture](https://raw.githubusercontent.com/JayJajoo/LLM-Project/main/architecture.png)
+<img width="1431" height="765" alt="image" src="https://github.com/user-attachments/assets/467175b2-1b51-4a3a-b035-0ebf539cac83" />
+
 
 ### Workflow Overview
 
