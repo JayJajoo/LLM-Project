@@ -2,7 +2,7 @@
 
 An intelligent academic planning assistant that leverages Large Language Models (LLMs) and multi-agent frameworks to automate course selection, schedule generation, and academic planning for university students.
 
-[![Demo](https://img.shields.io/badge/Demo-Watch%20Video-blue)](https://drive.google.com/file/d/1X7VfZkQt0LlTREotseXJpb9ZeZMvxSE/view?usp=drive_link)
+[![Demo](https://img.shields.io/badge/Demo-Watch%20Video-blue)](https://drive.google.com/file/d/1X7VfZkQ-t0LlTREotseXJpb9ZeZMvxSE/view?usp=drive_link)
 
 ## 📋 Overview
 
